@@ -1,0 +1,14 @@
+#input of the user
+firstname = input("enter your first name: ")
+lastname = input("enter your surname: ")
+fullname = firstname + " " + lastname
+section = input("enter your section: ")
+favsubject = input("enter your favorite subject: ")
+characcount = len(fullname)
+
+#display
+print(f"Name: {firstname} {lastname}")
+print(f"Name Code: {fullname}")
+print(f"section: {section}")
+print(f"favorite subject: {favsubject}")
+print(f"Charcter Count: {characcount}")
